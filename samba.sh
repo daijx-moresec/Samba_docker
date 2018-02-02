@@ -67,7 +67,7 @@ share() { local share="$1" path="$2" browsable=${3:-yes} ro=${4:-yes} \
         echo "   admin users = $(tr ',' ' ' <<< $admins)" >>$file
     echo -e "" >>$file
 }
-# Default: users:admin password: admin
+# Default: users:admin password: admin123
 ### timezone: Set the timezone for the container
 # Arguments:
 #   timezone) for example EST5EDT
